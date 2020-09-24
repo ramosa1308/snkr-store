@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ec036d9-b5b6-4ac5-b9e7-e7ea818f98c6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1hyV9Ea0Nj3NFJNq6Zbnz0inpPT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="StoreProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="snkr-store" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.snkr.storeproduct.StoreProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ec036d9-b5b6-4ac5-b9e7-e7ea818f98c6" name="Default Changelist" comment="" />
+      <created>1600983165757</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600983165757</updated>
+      <workItem from="1600983171145" duration="896000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-794" y="-900" key="new project wizard" timestamp="1600985826598">
+      <screen x="-1177" y="-1057" width="1920" height="989" />
+    </state>
+    <state x="-794" y="-900" key="new project wizard/0.23.1280.777/-1177.-1057.1920.989@-1177.-1057.1920.989" timestamp="1600985826598" />
+  </component>
+</project>

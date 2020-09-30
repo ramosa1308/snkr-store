@@ -30,7 +30,7 @@ public class ProductController {
     public ResponseEntity handlePost(@RequestBody ProductDto productDto){
         ProductDto savedProductDto = productService.saveProductDto(productDto);
         HttpHeaders headers = new HttpHeaders();
-        headers.add("Location", "/api/v1/product/" + savedProductDto.getUuid().toString());
+        headers.add("Location", "/api/v1/product/" + savedProductDto.getId());
         return new ResponseEntity(headers, HttpStatus.CREATED);
     }
 }

@@ -13,7 +13,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @Builder
 public class ProductDto {
-    private UUID uuid;
+    private UUID id;
     private String name;
     private String style;
     private String colorway;

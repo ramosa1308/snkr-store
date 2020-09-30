@@ -10,7 +10,7 @@ import java.util.UUID;
 public class ProductServiceImpl implements ProductService {
     @Override
     public ProductDto getProductById(UUID productId) {
-        return ProductDto.builder().uuid(UUID.randomUUID())
+        return ProductDto.builder().id(UUID.randomUUID())
                 .name("Jordan 1 Retro High Satin Snake Chicago (W)")
                 .colorway("GYM RED/WHITE-BLACK")
                 .description("Jordan Brand added luxe materials to a classic silhouette with the release of the Jordan 1 Retro High Satin Snake Chicago (W). This release combines Jumpman’s ongoing Satin 1 concept with the colorway that started it all.\n\n" +
@@ -24,7 +24,7 @@ public class ProductServiceImpl implements ProductService {
     @Override
     public ProductDto saveProductDto(ProductDto productDto) {
         return ProductDto.builder()
-                .uuid(UUID.randomUUID())
+                .id(UUID.randomUUID())
                 .build();
     }
 }

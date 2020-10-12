@@ -6,15 +6,16 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
-import java.util.UUID;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
 public class ProductDto {
-    private UUID id;
-    private String name;
+    private String ticker;
+    private String brand;
+    private String subBrand;
+    private String detail;
     private String style;
     private String colorway;
     private Double retailPrice;
